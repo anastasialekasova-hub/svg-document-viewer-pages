@@ -1,0 +1,9 @@
+# Local build/QA only: do not expose machine paths or broken copies publicly.
+tools/
+proofs/
+AGENTS.md
+assets/welcome-illustration.html
+node_modules/
+.env
+.env.*
+.DS_Store
