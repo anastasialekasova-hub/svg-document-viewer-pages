@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+  <title>Landscape badge with transparent cut-outs</title>
+  <!-- Drawn for the SVG Document Viewer store graphics. Transparent: outside the badge, the ring gap,
+       the sun, the cloud and the wave. White fill: the sky panel. -->
+  <defs>
+    <mask id="cutouts" maskUnits="userSpaceOnUse" x="0" y="0" width="480" height="480">
+      <rect width="480" height="480" fill="#FFFFFF"/>
+      <circle cx="322" cy="150" r="36" fill="#000000"/>
+      <g fill="#000000">
+        <circle cx="142" cy="160" r="20"/>
+        <circle cx="172" cy="146" r="28"/>
+        <circle cx="204" cy="160" r="20"/>
+        <rect x="122" y="160" width="102" height="20" rx="10"/>
+      </g>
+      <path fill="#000000" d="M64,362 C120,344 168,380 228,362 S336,344 416,362 V380 C356,362 308,398 248,380 S124,362 64,380 Z"/>
+    </mask>
+    <clipPath id="panel"><rect x="64" y="64" width="352" height="352" rx="50"/></clipPath>
+  </defs>
+  <path fill="#F2A23A" fill-rule="evenodd" d="M108,24 H372 A84,84 0 0 1 456,108 V372 A84,84 0 0 1 372,456 H108 A84,84 0 0 1 24,372 V108 A84,84 0 0 1 108,24 Z M112,52 A60,60 0 0 0 52,112 V368 A60,60 0 0 0 112,428 H368 A60,60 0 0 0 428,368 V112 A60,60 0 0 0 368,52 Z"/>
+  <g mask="url(#cutouts)">
+    <rect x="64" y="64" width="352" height="352" rx="50" fill="#FFFFFF"/>
+    <g clip-path="url(#panel)">
+      <polygon fill="#13836F" points="64,416 64,320 168,226 248,306 318,248 416,340 416,416"/>
+      <polygon fill="#22B394" points="64,416 64,350 150,296 236,348 300,316 416,368 416,416"/>
+    </g>
+  </g>
+</svg>

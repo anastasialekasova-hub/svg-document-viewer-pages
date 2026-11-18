@@ -13,4 +13,6 @@ The three service pages include Umami page analytics. Optional feedback submissi
 
 These web pages are separate from the extension's local SVG viewing controls. The privacy policy is hosted on pinwisp.com, not in this repository.
 
+The `sample/` folder holds three self-contained SVG drawings with no scripts, external links or web fonts. The welcome page links to them, so a new user can try the viewer on a direct HTTPS link.
+
 GitHub Pages serves the static files from the root of the `main` branch. No build step or runtime application server is required.

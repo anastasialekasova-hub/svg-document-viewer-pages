@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640">
+  <title>Apartment floor plan</title>
+  <!-- Drawn for the SVG Document Viewer store graphics. 1 unit = 10 mm. -->
+  <style>
+    .floor{fill:#FFFFFF}
+    .wall{fill:#2A313B}
+    .gap{fill:#FFFFFF}
+    .win{fill:#FFFFFF;stroke:#2A313B;stroke-width:1.2}
+    .glass{stroke:#2A313B;stroke-width:1}
+    .leaf{fill:#FFFFFF;stroke:#2A313B;stroke-width:1.4}
+    .swing{fill:none;stroke:#2A313B;stroke-width:1;stroke-dasharray:4 3}
+    .dim{fill:none;stroke:#2F5D8C;stroke-width:1}
+    .tick{stroke:#2F5D8C;stroke-width:1.6}
+    .dimt{fill:#2F5D8C;font:500 12px 'Segoe UI',Arial,sans-serif}
+    .room{fill:#1F2933;font:600 15px 'Segoe UI',Arial,sans-serif}
+    .area{fill:#52606D;font:400 12px 'Segoe UI',Arial,sans-serif}
+    .note{fill:#52606D;font:400 12px 'Segoe UI',Arial,sans-serif}
+  </style>
+
+  <rect class="floor" x="105" y="105" width="810" height="450"/>
+
+  <!-- exterior walls, 250 mm -->
+  <g class="wall">
+    <rect x="80" y="80" width="860" height="25"/>
+    <rect x="80" y="555" width="860" height="25"/>
+    <rect x="80" y="105" width="25" height="450"/>
+    <rect x="915" y="105" width="25" height="450"/>
+  </g>
+
+  <!-- interior walls, 120 mm -->
+  <g class="wall">
+    <rect x="395" y="105" width="12" height="225"/>
+    <rect x="395" y="410" width="12" height="145"/>
+    <rect x="655" y="105" width="12" height="215"/>
+    <rect x="655" y="390" width="12" height="60"/>
+    <rect x="655" y="520" width="12" height="35"/>
+    <rect x="407" y="300" width="63" height="12"/>
+    <rect x="550" y="300" width="105" height="12"/>
+    <rect x="667" y="400" width="248" height="12"/>
+  </g>
+
+  <!-- windows -->
+  <g>
+    <rect class="win" x="80" y="200" width="25" height="180"/>
+    <line class="glass" x1="89" y1="200" x2="89" y2="380"/><line class="glass" x1="96" y1="200" x2="96" y2="380"/>
+    <rect class="win" x="160" y="80" width="180" height="25"/>
+    <line class="glass" x1="160" y1="89" x2="340" y2="89"/><line class="glass" x1="160" y1="96" x2="340" y2="96"/>
+    <rect class="win" x="470" y="80" width="130" height="25"/>
+    <line class="glass" x1="470" y1="89" x2="600" y2="89"/><line class="glass" x1="470" y1="96" x2="600" y2="96"/>
+    <rect class="win" x="720" y="80" width="140" height="25"/>
+    <line class="glass" x1="720" y1="89" x2="860" y2="89"/><line class="glass" x1="720" y1="96" x2="860" y2="96"/>
+    <rect class="win" x="915" y="170" width="25" height="160"/>
+    <line class="glass" x1="924" y1="170" x2="924" y2="330"/><line class="glass" x1="931" y1="170" x2="931" y2="330"/>
+  </g>
+
+  <!-- doors -->
+  <g id="door-living">
+    <rect id="door-living-opening" x="395" y="330" width="12" height="80" fill="none"/>
+    <rect class="leaf" x="315" y="406" width="80" height="4"/>
+    <path class="swing" d="M315,410 A80,80 0 0 1 395,330"/>
+  </g>
+  <g id="door-kitchen">
+    <rect class="leaf" x="546" y="220" width="4" height="80"/>
+    <path class="swing" d="M550,220 A80,80 0 0 0 470,300"/>
+  </g>
+  <g id="door-bedroom">
+    <rect class="leaf" x="667" y="320" width="70" height="4"/>
+    <path class="swing" d="M737,320 A70,70 0 0 1 667,390"/>
+  </g>
+  <g id="door-bathroom">
+    <rect class="leaf" x="667" y="516" width="70" height="4"/>
+    <path class="swing" d="M737,520 A70,70 0 0 0 667,450"/>
+  </g>
+  <g id="door-entrance">
+    <rect class="gap" x="540" y="555" width="90" height="25"/>
+    <rect class="leaf" x="626" y="465" width="4" height="90"/>
+    <path class="swing" d="M630,465 A90,90 0 0 0 540,555"/>
+  </g>
+
+  <!-- dimension of the living-room door opening -->
+  <g id="door-living-dimension">
+    <line class="dim" x1="409" y1="330" x2="458" y2="330"/>
+    <line class="dim" x1="409" y1="410" x2="458" y2="410"/>
+    <line class="dim" x1="450" y1="322" x2="450" y2="418"/>
+    <line class="tick" x1="445" y1="335" x2="455" y2="325"/>
+    <line class="tick" x1="445" y1="415" x2="455" y2="405"/>
+    <text class="dimt" x="443" y="370" text-anchor="middle" transform="rotate(-90 443 370)">800</text>
+  </g>
+
+  <!-- overall dimensions -->
+  <g>
+    <line class="dim" x1="80" y1="76" x2="80" y2="30"/>
+    <line class="dim" x1="940" y1="76" x2="940" y2="30"/>
+    <line class="dim" x1="401" y1="76" x2="401" y2="52"/>
+    <line class="dim" x1="661" y1="76" x2="661" y2="52"/>
+    <line class="dim" x1="74" y1="36" x2="946" y2="36"/>
+    <line class="tick" x1="75" y1="41" x2="85" y2="31"/><line class="tick" x1="935" y1="41" x2="945" y2="31"/>
+    <text class="dimt" x="510" y="30" text-anchor="middle">8 600</text>
+    <line class="dim" x1="74" y1="58" x2="946" y2="58"/>
+    <line class="tick" x1="75" y1="63" x2="85" y2="53"/><line class="tick" x1="396" y1="63" x2="406" y2="53"/>
+    <line class="tick" x1="656" y1="63" x2="666" y2="53"/><line class="tick" x1="935" y1="63" x2="945" y2="53"/>
+    <text class="dimt" x="240.5" y="52" text-anchor="middle">3 210</text>
+    <text class="dimt" x="531" y="52" text-anchor="middle">2 600</text>
+    <text class="dimt" x="800.5" y="52" text-anchor="middle">2 790</text>
+    <line class="dim" x1="76" y1="80" x2="30" y2="80"/>
+    <line class="dim" x1="76" y1="580" x2="30" y2="580"/>
+    <line class="dim" x1="36" y1="74" x2="36" y2="586"/>
+    <line class="tick" x1="31" y1="85" x2="41" y2="75"/><line class="tick" x1="31" y1="585" x2="41" y2="575"/>
+    <text class="dimt" x="30" y="330" text-anchor="middle" transform="rotate(-90 30 330)">5 000</text>
+  </g>
+
+  <!-- room labels -->
+  <g text-anchor="middle">
+    <text class="room" x="250" y="300">Living room</text><text class="area" x="250" y="318">13.05 m²</text>
+    <text class="room" x="531" y="170">Kitchen</text><text class="area" x="531" y="188">4.84 m²</text>
+    <text class="room" x="545" y="420">Hall</text><text class="area" x="545" y="438">6.03 m²</text>
+    <text class="room" x="800" y="230">Bedroom</text><text class="area" x="800" y="248">7.32 m²</text>
+    <text class="room" x="820" y="478">Bathroom</text><text class="area" x="820" y="496">3.55 m²</text>
+  </g>
+  <text class="note" x="80" y="612">Floor plan · dimensions in mm</text>
+</svg>

@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="760" viewBox="0 0 2400 760">
+  <title>Belt conveyor, side view</title>
+  <!-- Drawn for the SVG Document Viewer store graphics. 1 unit = 5 mm. -->
+  <style>
+    .sheet{fill:#FFFFFF;stroke:#2A313B;stroke-width:3}
+    .part{fill:#E6ECF3;stroke:#2A313B;stroke-width:4;stroke-linejoin:round}
+    .steel{fill:#C9D3DF;stroke:#2A313B;stroke-width:4;stroke-linejoin:round}
+    .thin{fill:none;stroke:#2A313B;stroke-width:2}
+    .belt{fill:none;stroke:#1F2933;stroke-width:9;stroke-linejoin:round}
+    .hub{fill:#2A313B}
+    .axis{fill:none;stroke:#7B8794;stroke-width:2;stroke-dasharray:28 8 4 8}
+    .floor{stroke:#2A313B;stroke-width:4}
+    .hatch{stroke:#7B8794;stroke-width:2}
+    .dim{fill:none;stroke:#2F5D8C;stroke-width:2}
+    .tick{stroke:#2F5D8C;stroke-width:3}
+    .dimt{fill:#2F5D8C;font:500 30px 'Segoe UI',Arial,sans-serif}
+    .lbl{fill:#1F2933;font:600 30px 'Segoe UI',Arial,sans-serif}
+    .lead{fill:none;stroke:#1F2933;stroke-width:2}
+    .tbh{fill:#1F2933;font:700 30px 'Segoe UI',Arial,sans-serif}
+    .tb{fill:#3E4C59;font:400 24px 'Segoe UI',Arial,sans-serif}
+  </style>
+  <rect class="sheet" x="12" y="12" width="2376" height="736"/>
+
+  <!-- floor -->
+  <line class="floor" x1="80" y1="600" x2="2320" y2="600"/>
+  <path class="hatch" d="M100,600 l-14,14 M140,600 l-14,14 M180,600 l-14,14 M220,600 l-14,14 M260,600 l-14,14 M300,600 l-14,14 M340,600 l-14,14 M380,600 l-14,14 M420,600 l-14,14 M460,600 l-14,14 M500,600 l-14,14 M540,600 l-14,14 M580,600 l-14,14 M620,600 l-14,14 M660,600 l-14,14 M700,600 l-14,14 M740,600 l-14,14 M780,600 l-14,14 M820,600 l-14,14 M860,600 l-14,14 M900,600 l-14,14 M940,600 l-14,14 M980,600 l-14,14 M1020,600 l-14,14 M1060,600 l-14,14 M1100,600 l-14,14 M1140,600 l-14,14 M1180,600 l-14,14 M1220,600 l-14,14 M1260,600 l-14,14 M1300,600 l-14,14 M1340,600 l-14,14 M1380,600 l-14,14 M1420,600 l-14,14 M1460,600 l-14,14 M1500,600 l-14,14 M1540,600 l-14,14 M1580,600 l-14,14 M1620,600 l-14,14 M1660,600 l-14,14 M1700,600 l-14,14 M1740,600 l-14,14 M1780,600 l-14,14 M1820,600 l-14,14 M1860,600 l-14,14 M1900,600 l-14,14 M1940,600 l-14,14 M1980,600 l-14,14 M2020,600 l-14,14 M2060,600 l-14,14 M2100,600 l-14,14 M2140,600 l-14,14 M2180,600 l-14,14 M2220,600 l-14,14 M2260,600 l-14,14 M2300,600 l-14,14"/>
+
+  <!-- legs, tie and braces (behind the belt) -->
+  <g>
+    <rect class="part" x="370" y="322" width="20" height="274"/>
+    <rect class="part" x="790" y="322" width="20" height="274"/>
+    <rect class="part" x="1270" y="322" width="20" height="274"/>
+    <rect class="part" x="1750" y="322" width="20" height="274"/>
+    <rect class="steel" x="350" y="590" width="60" height="10"/>
+    <rect class="steel" x="770" y="590" width="60" height="10"/>
+    <rect class="steel" x="1250" y="590" width="60" height="10"/>
+    <rect class="steel" x="1730" y="590" width="60" height="10"/>
+    <rect class="part" x="390" y="514" width="1360" height="12"/>
+    <line class="thin" x1="390" y1="514" x2="790" y2="330"/>
+    <line class="thin" x1="1290" y1="514" x2="1750" y2="330"/>
+  </g>
+
+  <!-- drive unit: shaft, gearbox, motor, base, post -->
+  <g>
+    <rect class="steel" x="1940" y="294" width="56" height="12"/>
+    <rect class="part" x="1990" y="246" width="120" height="104" rx="8"/>
+    <rect class="part" x="2110" y="262" width="180" height="76" rx="12"/>
+    <path class="thin" d="M2134,270 V330 M2154,270 V330 M2174,270 V330 M2194,270 V330 M2214,270 V330 M2234,270 V330 M2254,270 V330"/>
+    <rect class="steel" x="2272" y="282" width="34" height="36" rx="6"/>
+    <rect class="steel" x="1996" y="350" width="300" height="16"/>
+    <rect class="part" x="2130" y="366" width="20" height="230"/>
+    <rect class="steel" x="2110" y="590" width="60" height="10"/>
+  </g>
+
+  <!-- feed hopper -->
+  <polygon class="part" points="330,110 560,110 520,220 370,220"/>
+  <rect class="steel" x="370" y="220" width="150" height="18"/>
+
+  <!-- stringer -->
+  <rect class="part" x="300" y="292" width="1640" height="30"/>
+  <path class="thin" d="M300,300 H1940 M300,314 H1940"/>
+
+  <!-- carrying idlers -->
+  <g>
+    <rect class="steel" x="435" y="270" width="10" height="22"/><circle class="steel" cx="440" cy="270" r="20"/>
+    <rect class="steel" x="615" y="270" width="10" height="22"/><circle class="steel" cx="620" cy="270" r="20"/>
+    <rect class="steel" x="795" y="270" width="10" height="22"/><circle class="steel" cx="800" cy="270" r="20"/>
+    <rect class="steel" x="975" y="270" width="10" height="22"/><circle class="steel" cx="980" cy="270" r="20"/>
+    <rect class="steel" x="1155" y="270" width="10" height="22"/><circle class="steel" cx="1160" cy="270" r="20"/>
+    <rect class="steel" x="1335" y="270" width="10" height="22"/><circle class="steel" cx="1340" cy="270" r="20"/>
+    <rect class="steel" x="1515" y="270" width="10" height="22"/><circle class="steel" cx="1520" cy="270" r="20"/>
+    <rect class="steel" x="1695" y="270" width="10" height="22"/><circle class="steel" cx="1700" cy="270" r="20"/>
+  </g>
+
+  <!-- return rollers -->
+  <g>
+    <rect class="steel" x="586" y="322" width="8" height="54"/><circle class="steel" cx="590" cy="376" r="16"/>
+    <rect class="steel" x="1036" y="322" width="8" height="54"/><circle class="steel" cx="1040" cy="376" r="16"/>
+    <rect class="steel" x="1516" y="322" width="8" height="54"/><circle class="steel" cx="1520" cy="376" r="16"/>
+  </g>
+
+  <!-- pulleys and belt -->
+  <circle class="steel" cx="300" cy="300" r="50"/><circle class="hub" cx="300" cy="300" r="14"/>
+  <circle class="steel" cx="1940" cy="300" r="50"/><circle class="hub" cx="1940" cy="300" r="14"/>
+  <path class="belt" d="M300,245 H1940 A55,55 0 0 1 1940,355 H300 A55,55 0 0 1 300,245 Z"/>
+  <path class="axis" d="M210,300 H390 M1850,300 H2030 M300,210 V390 M1940,210 V390"/>
+
+  <!-- dimensions -->
+  <g>
+    <line class="dim" x1="300" y1="620" x2="300" y2="686"/>
+    <line class="dim" x1="1940" y1="620" x2="1940" y2="686"/>
+    <line class="dim" x1="290" y1="670" x2="1950" y2="670"/>
+    <line class="tick" x1="292" y1="678" x2="308" y2="662"/><line class="tick" x1="1932" y1="678" x2="1948" y2="662"/>
+    <text class="dimt" x="1120" y="658" text-anchor="middle">8 200</text>
+    <line class="dim" x1="240" y1="245" x2="166" y2="245"/>
+    <line class="dim" x1="180" y1="235" x2="180" y2="610"/>
+    <line class="tick" x1="172" y1="253" x2="188" y2="237"/><line class="tick" x1="172" y1="608" x2="188" y2="592"/>
+    <text class="dimt" x="168" y="422" text-anchor="middle" transform="rotate(-90 168 422)">1 775</text>
+    <line class="dim" x1="1340" y1="250" x2="1340" y2="180"/>
+    <line class="dim" x1="1520" y1="250" x2="1520" y2="180"/>
+    <line class="dim" x1="1330" y1="196" x2="1530" y2="196"/>
+    <line class="tick" x1="1332" y1="204" x2="1348" y2="188"/><line class="tick" x1="1512" y1="204" x2="1528" y2="188"/>
+    <text class="dimt" x="1430" y="184" text-anchor="middle">900</text>
+  </g>
+
+  <!-- labels -->
+  <g>
+    <text class="lbl" x="40" y="152">Tail pulley</text>
+    <line class="lead" x1="150" y1="164" x2="266" y2="262"/>
+    <text class="lbl" x="590" y="150">Feed hopper</text>
+    <line class="lead" x1="586" y1="142" x2="548" y2="146"/>
+    <text class="lbl" x="1070" y="160" text-anchor="middle">Carrying idlers</text>
+    <line class="lead" x1="1100" y1="172" x2="1150" y2="252"/>
+    <text class="lbl" x="1040" y="470" text-anchor="middle">Return rollers</text>
+    <line class="lead" x1="1040" y1="440" x2="1040" y2="394"/>
+    <text class="lbl" x="1830" y="160" text-anchor="middle">Head pulley Ø550</text>
+    <line class="lead" x1="1880" y1="172" x2="1922" y2="252"/>
+    <text class="lbl" x="2200" y="210" text-anchor="middle">Drive unit</text>
+    <line class="lead" x1="2200" y1="222" x2="2200" y2="262"/>
+  </g>
+
+  <!-- title block -->
+  <g>
+    <rect class="thin" x="1980" y="620" width="408" height="128"/>
+    <line class="thin" x1="1980" y1="678" x2="2388" y2="678"/>
+    <text class="tbh" x="2000" y="662">Belt conveyor BC-8</text>
+    <text class="tb" x="2000" y="708">Side view · dimensions in mm</text>
+    <text class="tb" x="2000" y="736">Drawing 01 · sheet 1 of 1</text>
+  </g>
+</svg>
